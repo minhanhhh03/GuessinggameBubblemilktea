@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity4">
+    <RelativeLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:background="#F3A68E"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <Button
+            android:id="@+id/button15"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/buttonCreatenew3"
+            android:layout_alignTop="@+id/buttonCreatenew3"
+            android:layout_alignEnd="@+id/buttonCreatenew3"
+            android:layout_alignBottom="@+id/buttonCreatenew3"
+            android:layout_marginStart="194dp"
+            android:layout_marginTop="-158dp"
+            android:layout_marginEnd="-110dp"
+            android:layout_marginBottom="161dp"
+            android:onClick="clickFunction15"
+
+            android:text="15" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/buttonCreatenew3"
+            android:layout_alignTop="@+id/buttonCreatenew3"
+            android:layout_alignEnd="@+id/buttonCreatenew3"
+            android:layout_alignBottom="@+id/buttonCreatenew3"
+            android:layout_marginStart="193dp"
+            android:layout_marginTop="-237dp"
+            android:layout_marginEnd="-111dp"
+            android:layout_marginBottom="240dp"
+            android:onClick="clickFunction10"
+
+            android:text="10" />
+
+        <Button
+            android:id="@+id/button12"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/buttonCreatenew3"
+            android:layout_alignTop="@+id/buttonCreatenew3"
+            android:layout_alignEnd="@+id/buttonCreatenew3"
+            android:layout_alignBottom="@+id/buttonCreatenew3"
+            android:layout_marginStart="-41dp"
+            android:layout_marginTop="-162dp"
+            android:layout_marginEnd="125dp"
+            android:layout_marginBottom="165dp"
+            android:onClick="clickFunction12"
+
+            android:text="12" />
+
+        <Button
+            android:id="@+id/button13"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/buttonCreatenew3"
+            android:layout_alignTop="@+id/buttonCreatenew3"
+            android:layout_alignEnd="@+id/buttonCreatenew3"
+            android:layout_alignBottom="@+id/buttonCreatenew3"
+            android:layout_marginStart="43dp"
+            android:layout_marginTop="-162dp"
+            android:layout_marginEnd="41dp"
+            android:layout_marginBottom="165dp"
+            android:onClick="clickFunction13"
+
+            android:text="13" />
+
+        <Button
+            android:id="@+id/button14"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/buttonCreatenew3"
+            android:layout_alignTop="@+id/buttonCreatenew3"
+            android:layout_alignEnd="@+id/buttonCreatenew3"
+            android:layout_alignBottom="@+id/buttonCreatenew3"
+            android:layout_marginStart="116dp"
+            android:layout_marginTop="-160dp"
+            android:layout_marginEnd="-32dp"
+            android:layout_marginBottom="163dp"
+            android:onClick="clickFunction14"
+
+            android:text="14" />
+
+        <Button
+            android:id="@+id/button11"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/buttonCreatenew3"
+            android:layout_alignTop="@+id/buttonCreatenew3"
+            android:layout_alignEnd="@+id/buttonCreatenew3"
+            android:layout_alignBottom="@+id/buttonCreatenew3"
+            android:layout_marginStart="-120dp"
+            android:layout_marginTop="-162dp"
+            android:layout_marginEnd="203dp"
+            android:layout_marginBottom="165dp"
+            android:onClick="clickFunction11"
+
+            android:text="11" />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/buttonCreatenew3"
+            android:layout_alignTop="@+id/buttonCreatenew3"
+            android:layout_alignEnd="@+id/buttonCreatenew3"
+            android:layout_alignBottom="@+id/buttonCreatenew3"
+            android:layout_marginStart="116dp"
+            android:layout_marginTop="-238dp"
+            android:layout_marginEnd="-34dp"
+            android:layout_marginBottom="241dp"
+            android:onClick="clickFunction9"
+
+            android:text="9" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/buttonCreatenew3"
+            android:layout_alignTop="@+id/buttonCreatenew3"
+            android:layout_alignEnd="@+id/buttonCreatenew3"
+            android:layout_alignBottom="@+id/buttonCreatenew3"
+            android:layout_marginStart="42dp"
+            android:layout_marginTop="-236dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginBottom="239dp"
+            android:onClick="clickFunction8"
+
+            android:text="8" />
+
+        <Button
+            android:id="@+id/buttonCreatenew3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="69dp"
+            android:onClick="clickFunctionCreateNew3"
+            android:text="GUESS"
+            android:textSize="30sp" />
+
+        <Button
+
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/buttonCreatenew3"
+            android:layout_alignTop="@+id/buttonCreatenew3"
+            android:layout_alignEnd="@+id/buttonCreatenew3"
+            android:layout_alignBottom="@+id/buttonCreatenew3"
+            android:layout_marginStart="-122dp"
+            android:layout_marginTop="-299dp"
+            android:layout_marginEnd="204dp"
+            android:layout_marginBottom="310dp"
+
+            android:onClick="clickFunction1"
+            android:text="1" />
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/buttonCreatenew3"
+            android:layout_alignTop="@+id/buttonCreatenew3"
+            android:layout_alignEnd="@+id/buttonCreatenew3"
+            android:layout_alignBottom="@+id/buttonCreatenew3"
+            android:layout_marginStart="-39dp"
+            android:layout_marginTop="-299dp"
+            android:layout_marginEnd="119dp"
+            android:layout_marginBottom="310dp"
+            android:onClick="clickFunction2"
+            android:text="2" />
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/buttonCreatenew3"
+            android:layout_alignTop="@+id/buttonCreatenew3"
+            android:layout_alignEnd="@+id/buttonCreatenew3"
+            android:layout_alignBottom="@+id/buttonCreatenew3"
+            android:layout_marginStart="39dp"
+            android:layout_marginTop="-299dp"
+            android:layout_marginEnd="42dp"
+            android:layout_marginBottom="310dp"
+
+            android:onClick="clickFunction3"
+            android:text="3" />
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/buttonCreatenew3"
+            android:layout_alignTop="@+id/buttonCreatenew3"
+            android:layout_alignEnd="@+id/buttonCreatenew3"
+            android:layout_alignBottom="@+id/buttonCreatenew3"
+            android:layout_marginStart="116dp"
+            android:layout_marginTop="-299dp"
+            android:layout_marginEnd="-36dp"
+            android:layout_marginBottom="310dp"
+
+            android:onClick="clickFunction4"
+            android:text="4" />
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/buttonCreatenew3"
+            android:layout_alignTop="@+id/buttonCreatenew3"
+            android:layout_alignEnd="@+id/buttonCreatenew3"
+            android:layout_alignBottom="@+id/buttonCreatenew3"
+            android:layout_marginStart="192dp"
+            android:layout_marginEnd="-113dp"
+            android:layout_marginTop="-299dp"
+            android:layout_marginBottom="310dp"
+            android:onClick="clickFunction5"
+            android:text="5" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/buttonCreatenew3"
+            android:layout_alignTop="@+id/buttonCreatenew3"
+            android:layout_alignEnd="@+id/buttonCreatenew3"
+            android:layout_alignBottom="@+id/buttonCreatenew3"
+            android:layout_marginStart="-47dp"
+            android:layout_marginTop="74dp"
+            android:layout_marginEnd="-47dp"
+            android:layout_marginBottom="-33dp"
+            android:text="Press the Guess button to start game" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/buttonCreatenew3"
+            android:layout_alignTop="@+id/buttonCreatenew3"
+            android:layout_alignEnd="@+id/buttonCreatenew3"
+            android:layout_alignBottom="@+id/buttonCreatenew3"
+            android:layout_marginStart="-122dp"
+            android:layout_marginTop="-237dp"
+            android:layout_marginEnd="203dp"
+            android:layout_marginBottom="240dp"
+            android:onClick="clickFunction6"
+            android:text="6" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="65dp"
+
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/buttonCreatenew3"
+            android:layout_alignTop="@+id/buttonCreatenew3"
+            android:layout_alignEnd="@+id/buttonCreatenew3"
+            android:layout_alignBottom="@+id/buttonCreatenew3"
+            android:layout_marginStart="-40dp"
+            android:layout_marginTop="-238dp"
+            android:layout_marginEnd="115dp"
+            android:layout_marginBottom="240dp"
+            android:onClick="clickFunction7"
+
+            android:text="7" />
+
+
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+

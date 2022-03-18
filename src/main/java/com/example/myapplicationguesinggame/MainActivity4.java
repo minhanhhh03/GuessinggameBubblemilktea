@@ -1,0 +1,262 @@
+package com.example.myapplicationguesinggame;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.os.Bundle;
+import android.view.View;
+import android.widget.Toast;
+
+public class MainActivity4 extends AppCompatActivity {
+
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main4);
+
+    }
+
+    int result;
+    static int getRandomNumber(int max, int min)
+    {
+        return (int)((Math.random()
+                * (max - min)) + min);
+    }
+
+
+    public void makeToast(String str)
+    {
+        Toast.makeText(MainActivity4.this, str, Toast.LENGTH_SHORT).show();
+    }
+    public void clickFunctionCreateNew3(View view) {
+        int min = 1;
+        int max = 15;
+        result = getRandomNumber(min, max);
+
+    }
+
+    public void clickFunction1(View view) {
+        int userGuessing;
+        userGuessing = 1;
+        if (userGuessing < result) {
+            makeToast("Think of Higher Number, Try Again");
+        }
+        else if (userGuessing > result) {
+            makeToast("Think of Lower Number, Try Again");
+        }
+        else {
+            makeToast(
+                    "Congratulations,"
+                            +" You Got the Number");
+        }
+    }
+    public void clickFunction2(View view) {
+        int userGuessing;
+        userGuessing = 2;
+        if (userGuessing < result) {
+            makeToast("Think of Higher Number, Try Again");
+        }
+        else if (userGuessing > result) {
+            makeToast("Think of Lower Number, Try Again");
+        }
+        else {
+            makeToast(
+                    "Congratulations,"
+                            +" You Got the Number");
+        }
+    }
+    public void clickFunction3(View view) {
+        int userGuessing;
+        userGuessing = 3;
+        if (userGuessing < result) {
+            makeToast("Think of Higher Number, Try Again");
+        }
+        else if (userGuessing > result) {
+            makeToast("Think of Lower Number, Try Again");
+        }
+        else {
+            makeToast(
+                    "Congratulations,"
+                            +" You Got the Number");
+        }
+    }
+    public void clickFunction4(View view) {
+        int userGuessing;
+        userGuessing = 4;
+        if (userGuessing < result) {
+            makeToast("Think of Higher Number, Try Again");
+        }
+        else if (userGuessing > result) {
+            makeToast("Think of Lower Number, Try Again");
+        }
+        else {
+            makeToast(
+                    "Congratulations,"
+                            +" You Got the Number");
+        }
+    }
+    public void clickFunction5(View view) {
+        int userGuessing;
+        userGuessing = 5;
+        if (userGuessing < result) {
+            makeToast("Think of Higher Number, Try Again");
+        }
+        else if (userGuessing > result) {
+            makeToast("Think of Lower Number, Try Again");
+        }
+        else {
+            makeToast(
+                    "Congratulations,"
+                            +" You Got the Number");
+        }
+    }
+
+    public void clickFunction6(View view) {
+        int userGuessing;
+        userGuessing = 6;
+        if (userGuessing < result) {
+            makeToast("Think of Higher Number, Try Again");
+        }
+        else if (userGuessing > result) {
+            makeToast("Think of Lower Number, Try Again");
+        }
+        else {
+            makeToast(
+                    "Congratulations,"
+                            +" You Got the Number");
+        }
+    }
+    public void clickFunction7(View view) {
+        int userGuessing;
+        userGuessing = 7;
+        if (userGuessing < result) {
+            makeToast("Think of Higher Number, Try Again");
+        }
+        else if (userGuessing > result) {
+            makeToast("Think of Lower Number, Try Again");
+        }
+        else {
+            makeToast(
+                    "Congratulations,"
+                            +" You Got the Number");
+        }
+    }
+    public void clickFunction8(View view) {
+        int userGuessing;
+        userGuessing = 8;
+        if (userGuessing < result) {
+            makeToast("Think of Higher Number, Try Again");
+        }
+        else if (userGuessing > result) {
+            makeToast("Think of Lower Number, Try Again");
+        }
+        else {
+            makeToast(
+                    "Congratulations,"
+                            +" You Got the Number");
+        }
+    }
+    public void clickFunction9(View view) {
+        int userGuessing;
+        userGuessing = 9;
+        if (userGuessing < result) {
+            makeToast("Think of Higher Number, Try Again");
+        }
+        else if (userGuessing > result) {
+            makeToast("Think of Lower Number, Try Again");
+        }
+        else {
+            makeToast(
+                    "Congratulations,"
+                            +" You Got the Number");
+        }
+    }
+    public void clickFunction10(View view) {
+        int userGuessing;
+        userGuessing = 5+5;
+        if (userGuessing < result) {
+            makeToast("Think of Higher Number, Try Again");
+        }
+        else if (userGuessing > result) {
+            makeToast("Think of Lower Number, Try Again");
+        }
+        else {
+            makeToast(
+                    "Congratulations,"
+                            +" You Got the Number");
+        }
+    }
+    public void clickFunction11(View view) {
+        int userGuessing;
+        userGuessing = 6+5;
+        if (userGuessing < result) {
+            makeToast("Think of Higher Number, Try Again");
+        }
+        else if (userGuessing > result) {
+            makeToast("Think of Lower Number, Try Again");
+        }
+        else {
+            makeToast(
+                    "Congratulations,"
+                            +" You Got the Number");
+        }
+    }
+    public void clickFunction12(View view) {
+        int userGuessing;
+        userGuessing = 7+5;
+        if (userGuessing < result) {
+            makeToast("Think of Higher Number, Try Again");
+        }
+        else if (userGuessing > result) {
+            makeToast("Think of Lower Number, Try Again");
+        }
+        else {
+            makeToast(
+                    "Congratulations,"
+                            +" You Got the Number");
+        }
+    }
+    public void clickFunction13(View view) {
+        int userGuessing;
+        userGuessing = 8+5;
+        if (userGuessing < result) {
+            makeToast("Think of Higher Number, Try Again");
+        }
+        else if (userGuessing > result) {
+            makeToast("Think of Lower Number, Try Again");
+        }
+        else {
+            makeToast(
+                    "Congratulations,"
+                            +" You Got the Number");
+        }
+    }
+    public void clickFunction14(View view) {
+        int userGuessing;
+        userGuessing = 9+5;
+        if (userGuessing < result) {
+            makeToast("Think of Higher Number, Try Again");
+        }
+        else if (userGuessing > result) {
+            makeToast("Think of Lower Number, Try Again");
+        }
+        else {
+            makeToast(
+                    "Congratulations,"
+                            +" You Got the Number");
+        }
+    }
+    public void clickFunction15(View view) {
+        int userGuessing;
+        userGuessing = 5+5+5;
+        if (userGuessing < result) {
+            makeToast("Think of Higher Number, Try Again");
+        }
+        else if (userGuessing > result) {
+            makeToast("Think of Lower Number, Try Again");
+        }
+        else {
+            makeToast(
+                    "Congratulations,"
+                            +" You Got the Number");
+        }
+    }
+}
